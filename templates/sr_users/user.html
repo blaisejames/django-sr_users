@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Semi-Restful Users</title>
+    {% load static %}
+    <link href="{% static 'sr_users/css/styles.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        {% for user in users %}
+        <h1>User {{ user.id }}</h1>
+        <p>Full Name: {{ user.first_name }} {{ user.last_name }}</p>
+        <p>Email: {{ user.email }}</p>
+        <p>Created at: {{ user.created_at }}</p>
+        <br>
+        <p><a href="edit">Edit</a> | <a href="delete">Delete</a></p>
+        {% endfor %}
+    </main>
+</body>
+</html>

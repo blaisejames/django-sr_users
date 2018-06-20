@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px none;
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    width: 85%;
+}
+main {
+    margin: 0 auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 50px;
+    padding: 30px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+button[type=submit] {
+    width: 50%;
+    background-color: rgb(78, 119, 255);
+    color: white;
+    font-size: 1.5em;
+    padding: 15px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ul .messages {
+    list-style-type: none;
+    overflow-wrap: break-word;
+    margin-bottom: 25px;
+}
+.messages li {
+    border: 1px solid red;
+    color: red;
+    background: rgba(255, 0, 0, 0.15);
+    list_style_position: inside;
+    display: block;
+    font-size: 1.2 em;
+    margin: 0 0 3px;
+    padding: 4px 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+p {
+    font-size: 1em;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    margin-bottom: 25px;
+}
